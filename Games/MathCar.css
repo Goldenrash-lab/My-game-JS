@@ -1,0 +1,81 @@
+body{
+    background: grey;
+}
+#car{
+    width: 100px;
+    position: absolute;
+    top: 72px;
+    left: 178px;
+    z-index: 1;
+}
+#road{
+    width: 1300px;
+    position: absolute;
+}
+#info{
+    position: absolute;
+    left: 1267px;
+    top: 65px;
+     font-size: 75px;
+    color: red;
+    display: none;
+}
+#win{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    display: none;
+    color: #00ff1d;
+    font-size: 200px;
+}
+#xy{
+    top: 800px;
+    position: absolute;
+}
+#b1{
+    position: absolute;
+    top: 560px;
+    left: 560px;
+
+}
+#b2{
+    position: absolute;
+    top: 560px;
+    left: 680px;
+}
+#z1{
+    position: absolute;
+    width: 50px;
+    top: 175px;
+    left:1014px;
+    z-index: 0;
+}
+#z2{
+    position: absolute;
+    width: 50px;
+    top: 304px;
+    left:144px;
+}
+#z3{
+    position: absolute;
+    width: 50px;
+    top: 445px;
+    left:1090px;
+}
+.btn{
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    text-shadow: 3px 1px 2px #fff;
+}
